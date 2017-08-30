@@ -1,5 +1,7 @@
 //=../../bower_components/jquery/dist/jquery.js
 //=../../bower_components/selectize/dist/js/standalone/selectize.js
+//=../../bower_components/bootstrap/dist/js/bootstrap.js
+//=../../bower_components/lightgallery/dist/js/lightgallery-all.js
 
 
 
@@ -164,6 +166,11 @@ $('.image-box').click(function(event) {
   }); 
 });
 
+$('#lightgallery').lightGallery({
+	thumbnail: false,
+	autoplayControls: false,
+	share: false
+}); 
 
 
 });

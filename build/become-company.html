@@ -6,6 +6,7 @@
 	<title>Services</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -93,7 +94,7 @@
 				</div>
 			</div>
 		</header>
-<main class="become_specilalist">
+<main class="become_specilalist become_company">
 	<div class="grid">
 		<form action="#" method="post" class="form_inf">
 			<div class="control-group file-upload" id="file-upload">
@@ -105,11 +106,16 @@
 			</div>
 
 			<div class="general_information">
-				<p>Персональная информация</p>
+				<p>Информация об учреждении</p>
 				<div class="first_block">
 					<div class="add_block">
-						<input type="text" placeholder="Имя">
-						<input type="text" placeholder="Фамилия">
+						<input type="text" placeholder="Название учреждения">
+						<input type="text" placeholder="Рабочий e-mail">
+						<label>
+							<span>Ваш аддрес в checkin</span>
+							<span>chekin/</span>
+							<input type="text" placeholder="atlassian">
+						</label>
 						<div>
 							<!-- <label> -->
 								<input type="tel" placeholder="Телефон">
@@ -152,7 +158,7 @@
 
 				<p>Ваше расположение</p>
 
-				<div class="iframe">
+				<div class="company_iframe">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6154150.783456076!2d70.24735641073894!3d41.13547693654861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3897381dfce927f3%3A0x281058b74e88c433!2z0JrQuNGA0LPQuNC30LjRjw!5e0!3m2!1sru!2sru!4v1503912235203" frameborder="0" style="border:0" allowfullscreen></iframe>
 				</div>
 				<span>Поставьте метку на карте или позвольте нам отпределить ваше местоположение автоматически</span>
@@ -202,5 +208,6 @@
 
 <script src="js/main.js"></script>
 <script src="js/filter.js"></script>
+<script src="js/bootstrap.js"></script>
 </body>
 </html>

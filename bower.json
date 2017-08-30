@@ -13,5 +13,9 @@
   "dependencies": {
     "normalize.css": "*",
     "jquery": "2.*"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "lightgallery": "^1.6.0"
   }
 }
